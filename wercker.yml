@@ -1,0 +1,6 @@
+box: mies/openjdk7@0.0.3
+build:
+  steps:
+    - script:
+        name: install
+        code: mvn install
